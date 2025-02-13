@@ -35,7 +35,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  background: url(car.jpg);
+  background: url(images/car.jpg);
   background-size: cover;
 }
 
@@ -75,7 +75,7 @@ form.register {
   pointer-events: none;
 }
 
-/* added */
+
 
 .logo {
   display: flex;
@@ -204,7 +204,7 @@ label {
 	align-items: center;
 }
 
-/* original */
+
 main.sign-up-mode form.login {
   opacity: 0;
   pointer-events: none;
@@ -265,7 +265,7 @@ main.sign-up-mode .slide {
     align-items: center;
     transition: all 0.5s ease-in-out;
 
-    background-image: url(bunny.png);
+    background-image: url(images/bunny.png);
     background-size: cover;
   }
 
@@ -343,10 +343,6 @@ main.sign-up-mode .slide {
   .inner-container {
     padding: 1rem;
   }
-
-  
- 
-
 
   form {
     padding: 1rem 2rem 1.5rem;
